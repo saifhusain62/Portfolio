@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Navbar from './assets/Ui/Navbar'
 import MobileMenu from './assets/Ui/MobileMenu';
 import Home2 from './assets/Sections/Home2';
+import AnimationWaves from './assets/Ui/Animationwaves';
+import About from './assets/Sections/About';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
 
      <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
      <Home2/>
+     <AnimationWaves/>
+     <About/>
      
       
 

@@ -1,4 +1,6 @@
 import profileImg from "../images/ownimage.png"
+import { FaDownload } from "react-icons/fa";
+import resume from "../images/Resume.pdf"
 
 import React from 'react'
 
@@ -12,6 +14,15 @@ function Home2() {
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
             I am a MERN-MEAN Developer.Who loves creation interactive,scable web applications.My purpose is to build solutions that offer dynamic UI, high performance and delightful UX.
             </p>
+                  {/* BUTTON */}
+            <div className="flex justify-center items-center space-x-4"> 
+              <a href="#contact" className="bg-gradient-to-r flex flex-row from-teal-500 to-indigo-600 py-3 px-6 rounded hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Contact Me</a>
+                     {/* BUTTON */}
+              <a href={resume} className="bg-gradient-to-r flex flex-row from-teal-500 to-indigo-600 py-3 px-6 rounded hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]" download>
+                <p className="pr-2">Resume</p>
+                <span><FaDownload /></span>
+              </a>
+            </div>
 
       </div>
 
