@@ -7,7 +7,7 @@ function About() {
     "HTML5,","CSS3,","JavaScript,","TypeScript,","BootStrap,","TailwindCSS,","React,","Next.js,","GSAP,","FramerMotion,","three.js,","Vue.js,","Angular,","Node.js,","Express.js,","MongoDB,","Graphql,","Mysql"
   ]
   return (
-    <section id="#about" className='min-h-screen font-mono flex items-center justify-center py-20 mt-80 '>
+    <section id="about" className='min-h-screen font-mono flex items-center justify-center py-20 mt-80 '>
              
              {/* ABOUT ME */}
       <div className='max-w-3xl mx-auto px-4'>

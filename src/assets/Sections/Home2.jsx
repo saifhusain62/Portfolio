@@ -6,7 +6,7 @@ import React from 'react'
 
 function Home2() {
   return (
-    <section id="#home" className='min=h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-9 lg:gap-15 mt-48'>
+    <section id="home" className='min=h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-9 lg:gap-15 mt-48'>
            {/* TEXT CONTENT */}
       <div className="text-center font-mono z-10 px-4">
 

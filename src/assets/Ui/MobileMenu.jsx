@@ -12,7 +12,7 @@ function MobileMenu({isMenuOpen,setIsMenuOpen}) {
          <a href="#home" className='text-gray-300 text-lg  hover:text-xl hover:text-teal-300 transition all'>Home</a>
                       <a href="#about" className='text-gray-300 text-lg hover:text-xl hover:text-teal-300 transition all'
                       >About</a>
-                      <a href="#project" className='text-gray-300 text-lg hover:text-xl hover:text-teal-300 transition all'>Project</a>
+                      <a href="#projects" className='text-gray-300 text-lg hover:text-xl hover:text-teal-300 transition all'>Project</a>
                       <a href="#contact" className='text-gray-300  text-lg hover:text-xl hover:text-teal-300 transition all'>Contact</a>
  
     </div>

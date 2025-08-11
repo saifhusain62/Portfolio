@@ -4,6 +4,7 @@ import MobileMenu from './assets/Ui/MobileMenu';
 import Home2 from './assets/Sections/Home2';
 import AnimationWaves from './assets/Ui/Animationwaves';
 import About from './assets/Sections/About';
+import Projects from './assets/Sections/Projects';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
      <Home2/>
      <AnimationWaves/>
      <About/>
+     <Projects/>
      
       
 
