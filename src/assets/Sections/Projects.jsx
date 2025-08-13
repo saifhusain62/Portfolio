@@ -54,7 +54,7 @@ function Projects() {
                                <p className='text-gray-200'>View Project</p>
                                <a href="https://github.com/saifhusain62" className='flex justify-between items-center font-bold text-blue-400 transition-colors hover:text-white'>
                                        
-                                       <img src={project.image} alt={`${project.name}Image`} />
+                                       <img src={project.image} alt={`${project.name}Image`} className='border  rounded-[10px]'/>
                                     
                                </a>
                           </div>  
