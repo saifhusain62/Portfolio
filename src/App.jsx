@@ -6,6 +6,7 @@ import AnimationWaves from './assets/Ui/Animationwaves';
 import About from './assets/Sections/About';
 import Projects from './assets/Sections/Projects';
 import Contact from './assets/Sections/Contact';
+import Footer from './assets/Sections/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
      <About/>
      <Projects/>
      <Contact/>
+     <Footer/>
      
       
 
